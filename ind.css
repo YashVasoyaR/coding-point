@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 2.1rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-left: 3rem;
+    list-style: none;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem 4.75rem;
+    font-size: 1.2rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.col .btn{
+    margin-left:-89px ;
+    
+    padding: 0.375rem 4.75rem;
+    font-size: 1rem;
+}
+.text{
+    margin-bottom: 12rem;
+}
+.text2{
+    text-align: center;
+}
+.mb-3{
+    font-size: 1rem;
+    width: 27rem;
+}
+.footer{
+    background:rgb(73 76 73);
+}
+h5{
+    color: black;
+}
+.col-12 h2{
+    color: black;
+}
+main li{
+    list-style: disc;
+}
+
+
+.h11 {
+    padding-left: 0;
+    margin-left: 10rem;
+    text-align: start;
+}
+.text{
+    margin-bottom: 12rem;
+}
+.blog-post .blog-metas {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.blog-metas .blog-meta.author {
+    position: relative;
+    padding-left: 50px;
+}
+.blog-metas .blog-meta {
+    display: inline-block;
+    padding: 9px 15px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.blog-metas .blog-meta {
+    display: inline-block;
+    padding: 9px 15px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+/* ################## */
+.cons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    background-color: darkcyan;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+@media (max-width:700px){
+    .col-sm img{
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    }
+}
+@media (min-width:700px) and (max-width:1300px){
+    .col .btn{
+        margin-left: -8px;
+    }
+}
